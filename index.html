@@ -2,6 +2,7 @@
 
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="./style.css">
 	<script>
 		// TODO: create a handler
 	let setSearchEngine = function() {
@@ -40,15 +41,17 @@
 <body>
 
 	<form id="searchForm">
-    <!-- TODO: add form elements -->
 		<input type="text" name="q" id="input"/>
 
-		<label>Google<input type="radio" name="engine" value="google"/></label>
-		<label>DuckDuckGo<input type="radio" name="engine" value="duckDuckGo"/></label>
-		<label>Bing<input type="radio" name="engine" value="bing"/></label>
-		<label>Ask<input type="radio" name="engine" value="ask"/></label>
+		<div class="radios">
+			<label><input type="radio" name="engine" value="google"/>Google</label>
+			<label><input type="radio" name="engine" value="duckDuckGo"/>DuckDuckGo</label>
+			<label><input type="radio" name="engine" value="bing"/>Bing</label>
+			<label><input type="radio" name="engine" value="ask"/>Ask</label>
+		</div>
 
-		<button value="Go!" id="submit">Go!</button>
+
+		<button value="Go!" id="submit">Search!</button>
 
 	</form>
 
