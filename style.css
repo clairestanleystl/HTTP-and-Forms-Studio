@@ -14,7 +14,7 @@ body {
 
 #searchForm {
     position: absolute;
-    top: 30%;
+    top: 40%;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -35,14 +35,14 @@ body {
     border-bottom: #a7abdd 3px solid;
 }
 
+.radio {
+    margin: 0px 10px;
+}
+
 .radios {
     display: flex;
     justify-content: space-between;
     width: 80%;
-}
-
-input {
-    margin: 0px 10px;
 }
 
 #submit {
